@@ -1,0 +1,38 @@
+.reviews {
+    padding-bottom: 48px;
+    &__blocks {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-top: 60px;
+    }
+    &__text {
+        margin-left: 60px;
+        // width: 686px;
+        // height: 163px;
+    }
+    &__name {
+        font-family: MuseoModerno;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        color: #0D0D0D;
+    }
+    &__marafons {
+        font-family: MuseoModerno;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #646464;
+    }
+    &__descr {
+        font-family: MuseoModerno;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 29px;
+        color: #0D0D0D;
+    }
+}

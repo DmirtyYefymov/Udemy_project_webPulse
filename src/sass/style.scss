@@ -1,0 +1,35 @@
+// @import 'base/vaiables';
+@import 'base/animations';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/benefits';
+@import 'blocks/title';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/reviews';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/pageup';
+
+
+
+* {
+    font-family: 'Museo Sans Cyrl' sans-serif;
+}
+
+.container {
+    position: relative;
+    max-width: 945px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+

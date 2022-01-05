@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__logo {
+        width: 250px;
+        height: 54px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__official {
+        font-family: MuseoModerno;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 12px;
+        text-align: center;
+        color: #FFFFFF;
+        span {
+            display: block;
+            margin-top: 7px;
+            font-family: MuseoModerno;
+            font-size: 18px;
+        }
+    }
+    &__phone {
+        display: block;
+        font-family: MuseoModerno;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: right;
+        color: #FFFFFF;
+        &:hover {
+            color:#FFFFFF;
+            text-decoration: none;
+        }
+    }
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}
